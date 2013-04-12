@@ -1,0 +1,70 @@
+
+
+@font-face
+{
+	font-family: 'logo';
+	src: url('/styles/fonts/gloriola.woff');
+}
+
+@font-face
+{
+font-family: 'solomogram';
+src: url('/styles/fonts/proximanova.woff');
+}
+
+@font-face
+{
+font-family: 'signin';
+src: url('/styles/fonts/proximanova-b.woff')
+
+}
+
+#solo {width:870px;height:99px;margin:0 auto;}
+h1{color:gray;font-family:'logo';width:130px; float:left;font-size: 30px}
+h2{font-family: 'logo';font-size: 41px; text-indent: 200px; color:  white;}
+#logo{ height:287px;background:lightgray; position:relative;padding:60px;}
+
+body{background:white;font-family:'solomogram';font-size:18px ;}
+ul, li { margin:50; padding:0; list-style:none; display:block; list-style-image: url('/images/check2.png'); }
+
+#auth { display:table-row;overflow: hidden; float:right; margin-top:20px}
+
+        #signIn { display:table-cell;}
+        
+
+        #break { text-indent:10px;display: table-cell; width: 30px;}
+
+        #signUp { display:table-cell;}
+
+        #signIn a { font-family: 'signin', serif; color:gray; text-decoration: none;font-size: 15px}
+        #signUp a { font-family: 'signin', serif;color:gray;text-decoration: none;font-size:15px;}
+
+ strong{font-weight:bold}
+
+
+
+#oauth2 { position: relative; right: -400px; margin-top:120px}
+
+.button1{width:294px;height:52px;display: inline-block;outline: none;cursor: pointer;text-align: center;text-decoration: none;-webkit-border-radius: .9em; -moz-border-radius: .5em;border-radius: .9em;-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.2);background:url('/images/logfb.png') 0 -10px no-repeat;
+	
+
+}
+.button2{width:295px; height:52px;display: inline-block;outline: none;cursor: pointer;text-align: center;text-decoration: none;-webkit-border-radius: .9em; -moz-border-radius: .5em;border-radius: .9em;
+background:url('/images/sign-in-with-google.png') 0 -10px no-repeat;
+	
+	}
+
+
+
+
+#content{background:url(/images/imac.jpg) no-repeat ;width:600px;min-height:278px;padding:97px 0 0 591px;margin:0 auto 59px;margin-top: 20px}
+
+footer{
+    display: table;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
